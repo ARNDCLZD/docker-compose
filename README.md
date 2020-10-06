@@ -46,6 +46,10 @@ http://localhost:8181/cars
 
 docker stop [containerID] 
 
+or 
+
+Ctrl-c
+
 ## Docker volumes (mysql data persistence on disk)
 
 docker volume ls
