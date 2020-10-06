@@ -2,9 +2,11 @@
 
 A Java service in front of a mySQL data base
 
-## config
+## requirement
 
 jdk11
+
+## The app
 
 Java app data base access config: https://github.com/charroux/docker-compose/blob/main/src/main/resources/application.properties
 
@@ -17,8 +19,6 @@ The persistent Java class: https://github.com/charroux/docker-compose/blob/main/
 Docker file for the Java app: https://github.com/charroux/docker-compose/blob/main/Dockerfile
 
 Docker compose file: https://github.com/charroux/docker-compose/blob/main/docker-compose.yml
-
-
 
 ## build
 
