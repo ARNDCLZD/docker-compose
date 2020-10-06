@@ -20,7 +20,7 @@ Docker file for the Java app: https://github.com/charroux/docker-compose/blob/ma
 
 Docker compose file: https://github.com/charroux/docker-compose/blob/main/docker-compose.yml
 
-## build
+## Java app building
 
 ./gradlew build
 
