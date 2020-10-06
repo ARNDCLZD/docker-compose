@@ -36,7 +36,7 @@ if the app has not been already built
 
 ## test
 
-http://localhost:10222/cars
+http://localhost:8181/cars
 
 ## check Docker containers
 
