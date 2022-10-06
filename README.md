@@ -38,6 +38,10 @@ if the app has not been already built
 
 http://localhost:8181/cars
 
+Post a new car: 
+
+curl -X POST http://localhost:8181/cars -H 'Content-Type: application/json' -d '{"id":"666","plateNumber":"SuperCar"}'
+
 ## check Docker containers
 
 "docker ps" should display 2 containers: mysql, car rental java service.

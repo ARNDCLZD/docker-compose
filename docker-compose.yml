@@ -10,6 +10,8 @@ services:
       MYSQL_ROOT_HOST: '%'
     volumes:
       - ./sql:/docker-entrypoint-initdb.d
+      - mydatavolume:/var/lib/mysql
+
 
     ports:
       - "6033:3306"
@@ -30,3 +32,7 @@ services:
       WAIT_HOSTS: mysql:3306
     depends_on:
       - docker-mysql
+
+#Volume useful to "save" the data between container states
+volumes:
+  mydatavolume:
