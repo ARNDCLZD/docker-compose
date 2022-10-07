@@ -23,6 +23,7 @@ services:
 
   car-rental-app:
     restart: on-failure
+    container_name: car-rental
     build: ./
     expose:
       - "8181"
